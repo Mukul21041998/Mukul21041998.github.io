@@ -1,0 +1,59 @@
+.container-1{
+  
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+
+    border: 1px solid rgb(243, 234, 234);
+    background-color: rgb(243, 234, 234);
+    padding: 20px;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;  
+    width: 40%;
+
+}
+
+h1{
+    text-align: center;
+}
+
+#button{
+    width: 20%;
+    padding: 10px;
+    background-color: blue;
+    color:white;
+    border:1px solid blue;
+    cursor: pointer;
+
+}
+
+.container-2{
+    /* border: 1px solid brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+table{
+    border: 1px solid black;
+    height: 50vh;
+    width:50%;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    cursor: pointer;   
+    text-align: center;
+    width: 20%;
+    height: 20%;
+    font-size: 25px;
+}
+
